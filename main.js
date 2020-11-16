@@ -1,3 +1,9 @@
+/*
+Author: FarasK
+Date: 11/15/2020
+Purpose: HTML, CSS and js tic tac toe with a stupid ai
+*/
+
 //setup
 let startBtn = document.getElementById('startBtn');
 let restartBtn = document.getElementById('RestartBtn');
