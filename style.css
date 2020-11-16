@@ -1,0 +1,107 @@
+body{
+  background-color: black;
+  color: white;
+  user-select: none;
+  margin: 0px;
+  padding: 0px;
+}
+body h1{
+  font-size: 35px;
+  font-weight: 900;
+  font-family: cursive;
+
+}
+.container-cell{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background: white;
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 15px;
+  box-shadow: 10px 10px 55px;
+}
+.cell{
+  width: 200px;
+  height: 200px;
+  border-width: 5px 5px;
+  border-style:solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: black;
+}
+.cell h1{
+  user-select: none;
+}
+.cell:hover{
+  background-color: #2ecc71;
+
+}
+.cell h1:hover{
+  color: #FF0000;
+
+}
+.the-play{
+  font-size: 200px;
+
+}
+#game-form{
+  margin: auto;
+  justify-content: center;
+  display:grid;
+  align-items: center;
+
+}
+
+#game-form button{
+  width: 600px;
+  display:block;
+  margin: 4px;
+  background-color: white;
+  border: none;
+  border-radius:10px;
+  color: black;
+  font-family: cursive;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+#game-form button:hover{
+  background-color: #2ecc71;
+
+}
+.scoreboard{
+  display: inline-flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.scoreboard #timer{
+  width: 300px;
+  height: 40px;
+  display: flex;
+  border: 2px dashed white;
+  align-items: center;
+  justify-content: center;
+  line-height: 0px;
+  padding: 25px 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.scoreboard #winner{
+  width: 300px;
+  height: 40px;
+  border: 2px dashed white;
+  display: flex;
+  border-left: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
